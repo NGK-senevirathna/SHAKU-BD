@@ -1032,7 +1032,7 @@
         if (skip) continue;
         ltr.textContent = shown;
         if (scroller) scroller.scrollTop = scroller.scrollHeight;
-        await new Promise(r => setTimeout(r, ch === '\n' ? 200 : 22));
+        await new Promise(r => setTimeout(r, ch === '\n' ? 200 : 40));
       }
       ltr.textContent = text;
       burst(window.innerWidth / 2, window.innerHeight / 2, ['💖','💋','💕','🎈','✨'], 22, 160);
